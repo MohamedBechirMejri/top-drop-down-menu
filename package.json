@@ -1,22 +1,22 @@
 {
-  "name": "webpack-template",
+  "name": "top-drop-down-menu",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Drop down menu module for the odin project.",
+  "main": "main.js",
   "scripts": {
     "start": "webpack-dashboard -- webpack serve --config dev.config.js --open",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MohamedBechirMejri/webpack-template.git"
+    "url": "git+https://github.com/MohamedBechirMejri/top-drop-down-menu.git"
   },
   "author": "MohamedBechirMejri <mohamed.bechir.mejri.dev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MohamedBechirMejri/webpack-template/issues"
+    "url": "https://github.com/MohamedBechirMejri/top-drop-down-menu/issues"
   },
-  "homepage": "https://github.com/MohamedBechirMejri/webpack-template#readme",
+  "homepage": "https://github.com/MohamedBechirMejri/top-drop-down-menu#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^6.2.0",
