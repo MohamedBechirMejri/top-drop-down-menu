@@ -16,7 +16,9 @@ nav {
         height: 5em;
         border-radius: 0.5em;
         border-style: solid;
-        position: relative;
+        position: absolute;
+        right: 2em;
+        top: 1em;
 
         &:hover {
             box-shadow: 0 0 0 0.15em colors.$main-dark;
