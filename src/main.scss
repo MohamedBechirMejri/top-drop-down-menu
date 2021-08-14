@@ -1,23 +1,40 @@
-@use './styles/variables.scss';
+@use './styles/colors.scss';
+
 @use './styles/mixins.scss';
+
 nav {
-  position: relative;
+    position: relative;
 
-  .navtoggle {
-    background-color: variables.$color-main-light;
-    width: 5em;
-    height: 5em;
-    border-radius: 0.5em;
-    border-style: solid;
+    .navtoggle {
+        background-color: colors.$main-light;
+        width: 5em;
+        height: 5em;
+        border-radius: 0.5em;
+        border-style: solid;
+        position: relative;
 
-    .hamburger {
-      @include mixins.hamburgers;
-      &::before {
-        @include mixins.hamburgers;
-      }
-      &::after {
-        @include mixins.hamburgers;
-      }
+        .hamburger {
+            width: 3em;
+            height: 0.3em;
+            background: colors.$main-dark;
+            display: inline-block;
+            position: relative;
+
+            &::before {
+                @extend .hamburger;
+                @include mixins.hamburgers;
+                bottom: 0.75em;
+            }
+
+            &::after {
+                @extend .hamburger;
+                @include mixins.hamburgers;
+                top: 0.8em;
+            }
+        }
     }
-  }
+
+    .navlinks {
+        display: none;
+    }
 }

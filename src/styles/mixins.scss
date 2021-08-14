@@ -1,6 +1,8 @@
+@use './colors.scss';
+
 @mixin hamburgers {
+    background-color: colors.$main-dark;
     content: '';
-    width: 3em;
-    height: 0.25em;
-    border-style: solid;
+    position: absolute;
+    left: 0;
 }
