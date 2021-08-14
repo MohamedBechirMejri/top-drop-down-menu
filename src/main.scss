@@ -2,9 +2,12 @@
 
 @use './styles/mixins.scss';
 
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@100;200;300;400;500;600;700&display=swap);
+
 * {
     transition: all 300ms;
     text-align: center;
+    font-family: "Fira Code", monospace;
 }
 
 body {
