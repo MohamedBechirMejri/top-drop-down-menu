@@ -1,5 +1,5 @@
 @use './styles/variables.scss';
-@use './styles/extends.scss';
+@use './styles/mixins.scss';
 nav {
   position: relative;
 
@@ -11,12 +11,12 @@ nav {
     border-style: solid;
 
     .hamburger {
-      @extend %hamburgers;
+      @include mixins.hamburgers;
       &::before {
-        @extend %hamburgers;
+        @include mixins.hamburgers;
       }
       &::after {
-        @extend %hamburgers;
+        @include mixins.hamburgers;
       }
     }
   }
