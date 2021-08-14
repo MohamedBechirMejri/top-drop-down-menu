@@ -67,17 +67,45 @@ nav {
         background-color: #000000d6;
         width: 35em;
         height: 50em;
-        border-radius: 50em 0 30em 25em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        border-radius: 50em 0 50em 50em;
         position: absolute;
         right: 5.55em;
         top: 4.8em;
-        box-shadow: inset 0 0 0 4em #00000085, inset 0 0 0 8em #00000033,
-            inset 0 0 0 12em #0000002e;
+        box-shadow: inset 0 0 0 2em #00000085, inset 0 0 0 4em #00000033, inset 0 0 0 7em #0000002e;
         transform: scale(0);
         transform-origin: top right;
+
+        .navlink-container {
+            position: absolute;
+            top: 14%;
+            left: 20%;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: 71%;
+            border-radius: 50em 0 50em 50em;
+            overflow: hidden;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .navlink {
+                width: 60%;
+                padding: 2em;
+                margin: -4em;
+                background-color: rgb(135 135 135 / 3%);
+                color: colors.$main-light;
+                border-radius: 50em 0 50em 50em;
+                font-size: large;
+                font-weight: bolder;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: colors.$main-light;
+                    color: colors.$main-dark;
+                    box-shadow: inset;
+                }
+            }
+        }
     }
 
     .visible {
