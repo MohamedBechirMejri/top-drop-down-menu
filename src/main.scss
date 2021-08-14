@@ -48,22 +48,22 @@ nav {
         }
     }
 
+    .clicked {
+        .hamburger {
+            transform: rotate(45deg);
+
+            &::before {
+                bottom: 0 !important;
+            }
+
+            &::after {
+                transform: rotate(-90deg);
+                top: 0 !important;
+            }
+        }
+    }
+
     .navlinks {
         display: none;
-    }
-}
-
-.clicked {
-    .hamburger {
-        transform: rotate(45deg);
-
-        &::before {
-            bottom: 0 !important;
-        }
-
-        &::after {
-            transform: rotate(-90deg);
-            top: 0 !important;
-        }
     }
 }
