@@ -2,16 +2,25 @@
 
 @use './styles/mixins.scss';
 
+* {
+    transition: all 300ms;
+}
+
 nav {
     position: relative;
 
     .navtoggle {
         background-color: colors.$main-light;
+        border-color: colors.$main-dark;
         width: 5em;
         height: 5em;
         border-radius: 0.5em;
         border-style: solid;
         position: relative;
+
+        &:hover {
+            box-shadow: 0 0 0 0.15em colors.$main-dark;
+        }
 
         .hamburger {
             width: 3em;
@@ -19,12 +28,14 @@ nav {
             background: colors.$main-dark;
             display: inline-block;
             position: relative;
-            transition: all 300ms;
+            border-radius: 0.5em;
+
 
             &::before {
                 @extend .hamburger;
                 @include mixins.hamburgers;
                 bottom: 0.75em;
+
             }
 
             &::after {
