@@ -1,11 +1,15 @@
 @use './styles/variables.scss';
 
 nav {
-    position: relative;
+  position: relative;
 
-    .navtoggle {
-        width: 5em;
-        height: 5em;
-    }
+  .navtoggle {
+    background-color: variables.$color-main-light;
 
+    width: 5em;
+    height: 5em;
+
+    border-radius: 0.5em;
+    border-style: solid;
+  }
 }
