@@ -1,6 +1,11 @@
 @use './styles/variables.scss';
 
 nav {
-  position: relative;
+    position: relative;
+
+    .navtoggle {
+        width: 5em;
+        height: 5em;
+    }
 
 }
