@@ -2,7 +2,6 @@
 
 @use './styles/mixins.scss';
 
-
 nav {
     position: relative;
 
@@ -46,7 +45,6 @@ nav {
         transform: rotate(45deg);
 
         &::before {
-
             bottom: 0 !important;
         }
 
@@ -55,6 +53,4 @@ nav {
             top: 0 !important;
         }
     }
-
-
 }
