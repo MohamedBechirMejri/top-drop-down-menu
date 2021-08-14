@@ -17,6 +17,7 @@ body {
 
 nav {
     position: relative;
+    z-index: 100;
 
     .navtoggle {
         background-color: colors.$main-light;
@@ -28,7 +29,7 @@ nav {
         position: absolute;
         right: 2em;
         top: 1em;
-        z-index: 100;
+
 
         &:hover {
             box-shadow: 0 0 0 0.15em colors.$main-dark;
