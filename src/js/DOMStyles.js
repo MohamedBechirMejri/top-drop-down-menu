@@ -4,7 +4,8 @@ export const DOMStyles = () => {
     const navlinks = document.querySelector('.navlinks');
 
     navToggleButton.classList.toggle('clicked');
-    navlinks.classList.toggle('visible');
+      navlinks.classList.toggle('visible');
+      navlinks.classList.toggle('hidden');
   });
 };
 
