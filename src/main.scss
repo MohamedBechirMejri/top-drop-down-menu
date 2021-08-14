@@ -4,6 +4,7 @@
 
 * {
     transition: all 300ms;
+    text-align: center;
 }
 
 nav {
@@ -64,6 +65,28 @@ nav {
     }
 
     .navlinks {
-        display: none;
+        background-color: orange;
+        width: 40em;
+        height: 40em;
+        border-radius: 50% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+    //    transform-origin: center left;
+    //    animation: reveal 1s infinite alternate forwards;
     }
 }
+
+// Animations
+/*
+@keyframes reveal {
+    0% {}
+
+    100% {
+        display: block;
+        transform: rotate(60deg);
+    }
+}
+*/
