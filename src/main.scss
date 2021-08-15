@@ -9,12 +9,12 @@
     text-align: center;
     font-family: 'Fira Code', monospace;
 }
-
+/*
 body {
     background: antiquewhite;
     transition: none;
 }
-
+*/
 nav {
     position: relative;
     z-index: 100;
@@ -154,7 +154,7 @@ nav {
         }
     }
 }
-
+/*
 h1 {
     @extend %position-texts;
     top: 45%;
@@ -166,7 +166,7 @@ footer {
     bottom: 0 !important;
     transition: none;
 }
-
+*/
 // Animations
 
 @keyframes reveal {
