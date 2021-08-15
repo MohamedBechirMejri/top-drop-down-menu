@@ -1,6 +1,6 @@
 {
   "name": "@mohamedbechirmejri/top-drop-down-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop down menu module for the odin project.",
   "main": "main.js",
   "scripts": {
