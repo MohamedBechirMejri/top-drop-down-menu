@@ -1,4 +1,4 @@
-# top-drop-down-menu
+# top-drop-down-menu aka my first npm package
 
 ## What is it?
 
