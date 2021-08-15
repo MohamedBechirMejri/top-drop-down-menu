@@ -6,7 +6,7 @@ a nice little nav menu. it's a little quirky but it's my first original animated
 
 ## TODO
 
-* collapse when I click anywhere outside the menu
+- collapse when I click anywhere outside the menu
 
 ## See it Live (only focus on toggle, rest of the page is not? included in module)
 
@@ -25,3 +25,18 @@ a nice little nav menu. it's a little quirky but it's my first original animated
 ### import main.scss file into your main style.scss
 
 `@use 'top-drop-down-menu/src/main'`
+
+### add this to your html file
+
+```html
+<nav class="nav">
+  <button class="navtoggle"><span class="hamburger"></span></button>
+  <div class="navlinks invisible hidden">
+    <div class="navlink-container">
+      <a class="navlink" href="#">Home</a>
+      <a class="navlink" href="#">About</a>
+      <a class="navlink" href="#">Contact</a>
+    </div>
+  </div>
+</nav>
+```
