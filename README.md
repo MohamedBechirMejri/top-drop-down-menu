@@ -14,7 +14,7 @@ a nice little nav menu. it's a little quirky but it's my first original animated
 
 ## installation
 
-`npm install top-drop-down-menu`
+`npm install @mohamedbechirmejri/top-drop-down-menu`
 
 ## How to use
 
