@@ -22,6 +22,6 @@ a nice little nav menu. it's a little quirky but it's my first original animated
 
 `import 'top-drop-down-menu/src/main'`
 
-### import style.scss file into your main style.scss
+### import main.scss file into your main style.scss
 
 `@use 'top-drop-down-menu/src/main'`
