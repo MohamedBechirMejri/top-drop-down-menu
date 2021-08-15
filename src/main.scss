@@ -133,13 +133,23 @@ nav {
     }
 }
 
-h1 {
+%position-texts {
     position: absolute;
-    top: 45%;
     left: 50%;
     transform: translate(-50%);
-    transition: none;
     text-shadow: 0 0 2px;
+}
+
+h1 {
+    @extend %position-texts;
+    top: 45%;
+    transition: none;
+}
+
+footer {
+    @extend %position-texts;
+    bottom: 0 !important;
+    transition: none;
 }
 
 // Animations
