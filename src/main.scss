@@ -138,6 +138,14 @@ nav {
     left: 50%;
     transform: translate(-50%);
     text-shadow: 0 0 2px;
+
+    a {
+        background-color: colors.$main-dark;
+        color: antiquewhite;
+         text-decoration: none;
+         padding: 0.25em;
+         border-radius: 0.25em
+    }
 }
 
 h1 {
